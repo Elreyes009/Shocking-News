@@ -491,7 +491,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311349968}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.03216443, y: 0.47877917, z: 0.007488184, w: 0.8773141}
+  m_LocalRotation: {x: -0.008756596, y: 0.85167325, z: -0.0036598227, w: 0.5239873}
   m_LocalPosition: {x: 47.41, y: 0.93, z: -7.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -599,7 +599,7 @@ Camera:
     height: 1
   near clip plane: 0.28
   far clip plane: 1000.1
-  field of view: 45
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -625,8 +625,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0039936984, y: -0.33856708, z: 0.0014370152, w: 0.94093275}
-  m_LocalPosition: {x: 29.919456, y: 583.5879, z: -83.21031}
+  m_LocalRotation: {x: 0.014726877, y: 0.29103848, z: -0.0044806013, w: 0.95658755}
+  m_LocalPosition: {x: 70.014656, y: 3.9127069, z: -137.60007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1636,7 +1636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017601570}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.013505382, y: 0.4188713, z: -0.01966386, w: 0.90773225}
+  m_LocalRotation: {x: 0.004848053, y: -0.13131928, z: 0.0034016066, w: 0.9913225}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2323,7 +2323,6 @@ GameObject:
   - component: {fileID: 1763155064}
   - component: {fileID: 1763155063}
   - component: {fileID: 1763155065}
-  - component: {fileID: 1763155066}
   m_Layer: 0
   m_Name: ManagerGrabacion
   m_TagString: Untagged
@@ -2361,8 +2360,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763155062}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0039936984, y: -0.33856708, z: 0.0014370152, w: 0.94093275}
-  m_LocalPosition: {x: 29.919456, y: 583.5879, z: -83.21031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 63.57, y: 2.626, z: -116.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2386,7 +2385,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 1203768541752501764, guid: 1df0d4b44bd64384f82bc4dbce9c82f0, type: 2}
-    value: {fileID: 1763155066}
+    value: {fileID: 330585548}
   m_ExposedReferences:
     m_References:
     - 9c6035199e72f3348956a4237022c9c9: {fileID: 311349970}
@@ -2395,40 +2394,6 @@ PlayableDirector:
     - 7059f1fc425ae814194303670d1c28c4: {fileID: 1017601572}
     - b58fadc5504a664449fd84e98835d30e: {fileID: 311349970}
     - cd04e1e1dcfbf0345b7ede61fef06c48: {fileID: 311349970}
---- !u!114 &1763155066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763155062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1831898161
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,7 +2904,7 @@ PrefabInstance:
     - target: {fileID: 402857853884453379, guid: a181d36be1f40484193e2942be087a1d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.799492
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 402857853884453379, guid: a181d36be1f40484193e2942be087a1d,
         type: 3}
@@ -2949,7 +2914,7 @@ PrefabInstance:
     - target: {fileID: 402857853884453379, guid: a181d36be1f40484193e2942be087a1d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -41.66698
+      value: -51.38
       objectReference: {fileID: 0}
     - target: {fileID: 402857853884453379, guid: a181d36be1f40484193e2942be087a1d,
         type: 3}
