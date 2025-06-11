@@ -907,7 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0.6, z: 0}
+  m_TrackedObjectOffset: {x: 200, y: 0.6, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -1369,7 +1369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748539014}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00396742, y: -0.4140265, z: -0.0018045686, w: 0.9102544}
+  m_LocalRotation: {x: -0.0046160887, y: -0.41399515, z: -0.0020994307, w: 0.910265}
   m_LocalPosition: {x: 0.0000028534632, y: 5.05878e-10, z: -0.000007632459}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1636,7 +1636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017601570}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.010420542, y: -0.23595218, z: 0.0049939584, w: 0.97169596}
+  m_LocalRotation: {x: 0.00054040755, y: 0.715564, z: 0.005115444, w: 0.6985283}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1925,7 +1925,7 @@ Transform:
   m_GameObject: {fileID: 1262288680}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0067019113, y: -0.000019709147, z: -0.002940746, w: 0.99997324}
-  m_LocalPosition: {x: 19.999998, y: 1.1, z: -8.900007}
+  m_LocalPosition: {x: 16, y: 1.2, z: -5.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1953,7 +1953,7 @@ MonoBehaviour:
   m_Waypoints:
   - position: {x: 0, y: 0, z: 0}
     roll: 0
-  - position: {x: -40.80547, y: 0.47590315, z: 35.57558}
+  - position: {x: -34.569386, y: 0.47128123, z: 30.143661}
     roll: 0
 --- !u!1 &1494510043
 GameObject:
