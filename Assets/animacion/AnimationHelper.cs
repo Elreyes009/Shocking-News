@@ -14,6 +14,14 @@ public class AnimationHelper : MonoBehaviour
     public bool walk;
 
 
+    public GameObject t;
+    public GameObject n;
+    public GameObject w;
+
+    public bool WTF;
+    public bool normal;
+    public bool triste;
+
     void Start()
     {
         anim = prota.GetComponent<Animator>();
@@ -21,37 +29,73 @@ public class AnimationHelper : MonoBehaviour
 
     void Update()
     {
+        Animations();
+        Caras();
+    }
+
+    private void Caras()
+    {
+        if (WTF)
+        {
+            w.SetActive(true);
+        }
+        else
+        {
+            w.SetActive(false);
+        }
+
+        if (normal)
+        {
+            n.SetActive(true);
+        }
+        else
+        {
+            n.SetActive(false);
+        }
+
+        if (triste)
+        {
+            t.SetActive(true);
+        }
+        else
+        {
+            t.SetActive(false);
+        }
+    }
+
+    private void Animations()
+    {
         if (Idle)
         {
             anim.SetBool("Idle", true);
-            anim.SetBool("sadIdle", false);
-            anim.SetBool("sadWalk", false);
-            anim.SetBool("walk", false);
+            anim.SetBool("SadIdle", false);
+            anim.SetBool("SadWalk", false);
+            anim.SetBool("Walk", false);
         }
         else if (sadIdle)
         {
             anim.SetBool("Idle", false);
-            anim.SetBool("sadIdle", true);
-            anim.SetBool("sadWalk", false);
-            anim.SetBool("walk", false);
+            anim.SetBool("SadIdle", true);
+            anim.SetBool("SadWalk", false);
+            anim.SetBool("Walk", false);
         }
         else if (sadWalk)
         {
             anim.SetBool("Idle", false);
-            anim.SetBool("sadIdle", false);
-            anim.SetBool("sadWalk", true);
-            anim.SetBool("walk", false);
+            anim.SetBool("SadIdle", false);
+            anim.SetBool("SadWalk", true);
+            anim.SetBool("Walk", false);
         }
         else if (walk)
         {
             anim.SetBool("Idle", false);
-            anim.SetBool("sadIdle", false);
-            anim.SetBool("sadWalk", false);
-            anim.SetBool("walk", true);
+            anim.SetBool("SadIdle", false);
+            anim.SetBool("SadWalk", false);
+            anim.SetBool("Walk", true);
         }
-
-
-
-
     }
+
+
+
+
 }
