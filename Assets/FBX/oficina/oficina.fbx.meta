@@ -119,6 +119,106 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.023
     second: {fileID: 2100000, guid: f8d8113633e124c429a2a4491c975ffc, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cojin
+    second: {fileID: 2800000, guid: e96c4ac8ea7b7574d893b3b053ead896, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio
+    second: {fileID: 2800000, guid: 79c32a1528b2b52438ed0ad9dc3d8a67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lapiz
+    second: {fileID: 2800000, guid: 1363f3d613f1040468d9412b979c2051, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesaCentrillo
+    second: {fileID: 2800000, guid: c3de5c7c860b6094b86e4bfa03488d50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mouse
+    second: {fileID: 2800000, guid: 886124fdeef18754e9b16d73bb1e471d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: papel
+    second: {fileID: 2800000, guid: da17c6fa9f079b54aa5030f2bd3911d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pared ventana
+    second: {fileID: 2800000, guid: 8942c81be7810594c9445cb06d8153b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pared2
+    second: {fileID: 2800000, guid: 78ab59429e97b714a87dcbe5396ddbc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pared3
+    second: {fileID: 2800000, guid: e67021f8be7d7ab428c9fc1abef0a972, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paredMadera.001
+    second: {fileID: 2800000, guid: 78ab76e7156f6044e8d76edf6a803d45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paredpasillo2
+    second: {fileID: 2800000, guid: 766d73765a7ed1a4f9e6bd8b082c0c3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paredpasillopeke
+    second: {fileID: 2800000, guid: d9cd705958c166846b28c5be5443680f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pc
+    second: {fileID: 2800000, guid: 6eae9888a899d494aa8c4d24368218f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: silla
+    second: {fileID: 2800000, guid: 3576375c1260dd541bfefe0fc83a20d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sillon
+    second: {fileID: 2800000, guid: 7c6b6582d418a2341bf6ab00c2a34e7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: suelo
+    second: {fileID: 2800000, guid: 0c3ec5a4e5a50d84b907ff44c2c5fe42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: switch luz
+    second: {fileID: 2800000, guid: fe4465dc49ac7844994464298d9cface, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: techo
+    second: {fileID: 2800000, guid: 378b803c9190a5840a95498f9d32e2a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'tv '
+    second: {fileID: 2800000, guid: db125068d328cf041b8e91219d925943, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ventana
+    second: {fileID: 2800000, guid: 2ace969b38a5b624a8cb11389ba0a375, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
